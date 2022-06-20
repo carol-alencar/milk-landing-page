@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(0deg, rgba(251,249,241,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.logo-carol{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.barra-navegacao{
+    display: flex;
+    gap: 32px;
+}
+
+.barra-navegacao-item{
+    font-family: 'Sarala', sans-serif;
+    color: #CB6CE6;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #CB6CE6
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-titulo{
+    font-family: 'Orelega One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  color: #CB6CE6;
+}
+.conteudo-principal-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    color: #cc8edd;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #cc8edd ;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 23px;
+}
+.conteudo-principal-imagem-guinho{
+    height: 430px;
+}
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    padding-left: 10px;
+}
+
+.faq-titulo-top{
+    border-top: 0.4px solid #CB6CE6;
+    padding-top: 48px;
+    font-family: 'Orelega One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #CB6CE6;
+    margin-bottom: 16px;
+}
+
+.faq-titulo{
+    font-family: 'Orelega One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #CB6CE6;
+}
+
+.conteudo-pagrafo{
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #000;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #CB6CE6;
+
+}
+
+.rodape-imagem{
+    height: 78px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.conteudo-principal-escrito-botao:hover{
+background-color: rgba(236, 214, 196, 0.53);
+}
